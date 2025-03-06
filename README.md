@@ -1,5 +1,8 @@
 # Project Setup Guide
 
+## Video Demo
+https://github.com/user-attachments/assets/ef6f074b-ac9c-4cb6-81dd-23e9298e6209
+
 ## Prerequisites
 Ensure you have the following installed before proceeding:
 - [Node.js](https://nodejs.org/) (Latest LTS version recommended)
