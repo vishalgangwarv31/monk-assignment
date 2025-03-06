@@ -1,0 +1,168 @@
+/* General container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.availability-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Form styling */
+.availability-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.availability-form label {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.availability-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.availability-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.availability-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nav-buttons button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-buttons button:hover {
+    background-color: #218838;
+}
+
+/* Availabilities list */
+.availabilities-list {
+    margin-top: 20px;
+}
+
+.availability-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 6px solid #007bff;
+}
+
+.availability-item p {
+    margin: 6px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.availability-day {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* No availability message */
+.no-availability {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* 1111111111111111111 */
+
+/* Container styling */
+.shifts-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.shifts-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Shift card styling */
+.shifts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.shift-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid #007bff;
+    text-align: left;
+}
+
+.shift-card p {
+    margin: 6px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Day styling */
+.shift-day {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* No shifts message */
+.no-shifts {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+    font-weight: bold;
+}

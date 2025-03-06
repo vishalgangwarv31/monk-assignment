@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const employeeController_1 = require("../Controller/employeeController");
+const employeeAuthMiddleware_1 = require("../Middleware/employeeAuthMiddleware");
+const empolyeeRoutes = (0, express_1.Router)();
+empolyeeRoutes.post('/login', employeeController_1.login);
+empolyeeRoutes.post('/register', employeeController_1.register);
+empolyeeRoutes.post('/create-availability', employeeAuthMiddleware_1.employeeAuthMiddleware, employeeController_1.createAvailability);
+empolyeeRoutes.get('/get-availability', employeeAuthMiddleware_1.employeeAuthMiddleware, employeeController_1.getAvailability);
+empolyeeRoutes.get('/get-shifts', employeeAuthMiddleware_1.employeeAuthMiddleware, employeeController_1.getShifts);
+exports.default = empolyeeRoutes;

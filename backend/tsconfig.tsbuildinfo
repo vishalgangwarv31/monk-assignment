@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controller/admincontroller.ts","./src/controller/employeecontroller.ts","./src/middleware/adminauthmiddleware.ts","./src/middleware/employeeauthmiddleware.ts","./src/routes/adminroutes.ts","./src/routes/employeeroutes.ts","./src/config/defination.ts","./src/prisma/client.ts"],"version":"5.8.2"}
